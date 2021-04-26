@@ -53,6 +53,8 @@
   
   .table th{
     transform: translateY(-1px);
+    text-align: center;
+    font-size: 28px;
   }
 
   /*responsive*/
@@ -62,6 +64,13 @@
       overflow-x: scroll
     }
   }
+  
+  @media only screen and (max-width: 1025px) {
+      .mob-menu-header-holder {
+        position: fixed !important;
+        z-index: 99999 !important;
+      }
+    }
 </style>
 
 <body>
